@@ -1,64 +1,60 @@
-.body {
-    background: linear-gradient(to bottom right, #5e4c5a, #6d878a, #6c8689);
-    border: solid 1px white;
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .text {
-    font-family: "Source Sans Pro", sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    line-height: 1.8;
-    font-weight: 500;
-    transform: translateY(-320px);
-    margin: 20px;
-  }
-  
-  .menu {
-    font-family: "Source Sans Pro", sans-serif;
-    transition: linear 2s color;
-    list-style-type: none;
-    padding: 3px;
-    text-align: center;
-    align-items: center;
-    font-weight: 300;
-    margin: 30px;
-    transform: translateY(-260px);
-  }
-  
-  .list {
-    font-size: 16px;
-    padding: 8px;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    border: 1px solid white;
-    border-radius: 4px;
-    scroll-behavior: smooth;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  }
-  .list:hover {
-    background-color: #5ca0a9;
-    opacity: 0.5;
-    scroll-behavior: smooth;
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .fas {
-    font-size: 4em;
-    margin: 150px;
-    color: white;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.text {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.menu {
+  font-family: "Source Sans Pro", sans-serif;
+  transition: linear 2s color;
+  list-style-type: none;
+  padding: 3px;
+  text-align: center;
+  align-items: center;
+  font-weight: 300;
+  margin: 30px;
+}
+
+.list {
+  font-size: 18px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 2px;
+  transition: background-color color 0.2s ease-in-out;
+}
+.list:hover {
+  background-color: transparent;
+  opacity: 0.5;
+  scroll-behavior: smooth;
+}
+.intro {
+  background-image: url("../../images/intro.svg");
+  color: white;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+}
+.header {
+  background: linear-gradient(#5e42a6, #772d7f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.material-icons {
+  font-size: 5em;
+  color: rgb(183, 78, 145);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

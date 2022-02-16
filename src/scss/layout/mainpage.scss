@@ -64,7 +64,7 @@
 }
 .skils {
   background-color: rgb(73, 51, 130);
-  height: 240px;
+  height: 210px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -81,22 +81,14 @@
   margin: 15px;
   transform: translateY(-60px);
 }
-
 .list_icons {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  transform: translateY(-10px);
 }
-.icon1 {
-  height: 3em;
-  line-height: 3em;
-  width: 3em;
-  margin: 18px;
-}
-
 .second_section {
   display: flex;
   flex-direction: column;
@@ -139,9 +131,11 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .team1 {
-  width: 100%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
-  padding: 0.4rem;
+  border-radius: 30px;
+  border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web {
   flex-direction: row;
@@ -161,7 +155,7 @@
 .web_1:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 
 .repo_1 {
@@ -177,7 +171,7 @@
 .repo_1:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .paragraph02 {
   font-family: "Source Sans Pro", sans-serif;
@@ -188,9 +182,11 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt {
-  width: 100%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
-  padding: 0.4rem;
+  border-radius: 30px;
+  border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web1 {
   flex-direction: row;
@@ -210,7 +206,7 @@
 .web_2:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .repo_1_1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -225,7 +221,7 @@
 .repo_1_1:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .paragraph03 {
   font-family: "Source Sans Pro", sans-serif;
@@ -236,9 +232,11 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_gr {
-  width: 100%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
-  padding: 0.4rem;
+  border-radius: 30px;
+  border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web2 {
   flex-direction: row;
@@ -258,7 +256,7 @@
 .web_3:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .repo_1_2 {
   font-family: "Source Sans Pro", sans-serif;
@@ -273,7 +271,7 @@
 .repo_1_2:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .paragraph04 {
   font-family: "Source Sans Pro", sans-serif;
@@ -284,9 +282,11 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt1 {
-  width: 100%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
-  padding: 0.4rem;
+  border-radius: 30px;
+  border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web3 {
   flex-direction: row;
@@ -306,7 +306,7 @@
 .web_4:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .repo_1_3 {
   font-family: "Source Sans Pro", sans-serif;
@@ -321,7 +321,7 @@
 .repo_1_3:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .paragraph05 {
   font-family: "Source Sans Pro", sans-serif;
@@ -332,14 +332,17 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt2 {
-  width: 100%;
+  width: 60%;
+  height: auto;
   object-fit: cover;
-  padding: 0.4rem;
+  border-radius: 30px;
+  border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web4 {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 10px;
+  margin: 15px;
 }
 .web_5 {
   font-family: "Source Sans Pro", sans-serif;
@@ -354,7 +357,7 @@
 .web_5:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .repo_1_4 {
   font-family: "Source Sans Pro", sans-serif;
@@ -369,7 +372,7 @@
 .repo_1_4:hover {
   position: relative;
   z-index: 1;
-  color: #5ca0a9;
+  color: #772d7f;
 }
 .html {
   height: 2em;

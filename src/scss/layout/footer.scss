@@ -1,9 +1,29 @@
 .footer {
-  background-color: rgb(73, 51, 130);
+  background: linear-gradient(#2c1a4d, #801f4f);
   display: flex;
   justify-content: center;
   flex-direction: column;
   height: 250px;
+}
+.icon_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-40px);
+}
+.arrow{
+  background-color: #801f4f;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: transparent;
+  opacity: 0.5;
+  scroll-behavior: smooth;
 }
 
 .third_section {
@@ -37,7 +57,7 @@
 .fab:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #2c1a4d;
 }
 .location {
   font-family: "Source Sans Pro", sans-serif;

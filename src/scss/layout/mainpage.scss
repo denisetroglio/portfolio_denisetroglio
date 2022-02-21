@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(183, 78, 145);
+  background-color: #160d27;
+  height: 100vh;
 }
 .webadalab {
   text-decoration: none;
@@ -63,8 +64,8 @@
   align-items: center;
 }
 .skils {
-  background-color: rgb(73, 51, 130);
-  height: 210px;
+  background-color: #801f4f;
+  height: 180px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -78,8 +79,8 @@
   text-align: center;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.55);
-  margin: 15px;
-  transform: translateY(-60px);
+  margin: 35px;
+  transform: translateY(-40px);
 }
 .list_icons {
   list-style-type: none;
@@ -87,14 +88,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  transform: translateY(-10px);
+  transform: translateY(-20px);
 }
 .second_section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2d214a;
+  background-color: #160d27;
   padding: 3px;
 }
 
@@ -119,7 +120,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2d214a;
+  background-color: #160d27;
   padding: 3px;
 }
 .paragraph01 {
@@ -134,7 +135,6 @@
   width: 60%;
   height: auto;
   object-fit: cover;
-  border-radius: 30px;
   border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web {
@@ -155,7 +155,7 @@
 .web_1:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 
 .repo_1 {
@@ -171,7 +171,7 @@
 .repo_1:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .paragraph02 {
   font-family: "Source Sans Pro", sans-serif;
@@ -185,7 +185,6 @@
   width: 60%;
   height: auto;
   object-fit: cover;
-  border-radius: 30px;
   border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web1 {
@@ -206,7 +205,7 @@
 .web_2:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .repo_1_1 {
   font-family: "Source Sans Pro", sans-serif;
@@ -221,7 +220,7 @@
 .repo_1_1:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .paragraph03 {
   font-family: "Source Sans Pro", sans-serif;
@@ -235,7 +234,6 @@
   width: 60%;
   height: auto;
   object-fit: cover;
-  border-radius: 30px;
   border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web2 {
@@ -256,7 +254,7 @@
 .web_3:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .repo_1_2 {
   font-family: "Source Sans Pro", sans-serif;
@@ -271,7 +269,7 @@
 .repo_1_2:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .paragraph04 {
   font-family: "Source Sans Pro", sans-serif;
@@ -285,7 +283,6 @@
   width: 60%;
   height: auto;
   object-fit: cover;
-  border-radius: 30px;
   border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web3 {
@@ -306,7 +303,7 @@
 .web_4:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .repo_1_3 {
   font-family: "Source Sans Pro", sans-serif;
@@ -321,7 +318,7 @@
 .repo_1_3:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .paragraph05 {
   font-family: "Source Sans Pro", sans-serif;
@@ -335,7 +332,6 @@
   width: 60%;
   height: auto;
   object-fit: cover;
-  border-radius: 30px;
   border: solid 4px rgba(255, 255, 255, 0.55);
 }
 .web4 {
@@ -357,7 +353,7 @@
 .web_5:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .repo_1_4 {
   font-family: "Source Sans Pro", sans-serif;
@@ -372,7 +368,7 @@
 .repo_1_4:hover {
   position: relative;
   z-index: 1;
-  color: #772d7f;
+  color: #801f4f;
 }
 .html {
   height: 2em;

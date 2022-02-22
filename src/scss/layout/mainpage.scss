@@ -43,7 +43,17 @@
   align-items: center;
   height: 1px;
   width: 6em;
-  transform: translateY(-70px);
+  transform: translateY(-50px);
+}
+.border_p {
+  background: rgba(255, 255, 255, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  width: 6em;
+  transform: translateY(-20px);
 }
 
 .first_text {
@@ -79,7 +89,7 @@
   text-align: center;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.55);
-  margin: 35px;
+  margin: 15px;
   transform: translateY(-40px);
 }
 .list_icons {
@@ -105,6 +115,7 @@
   font-weight: 300;
   padding: 10px;
   text-transform: uppercase;
+  margin: 15px;
   color: rgba(255, 255, 255, 0.55);
 }
 .second_text {
@@ -417,4 +428,151 @@
   line-height: 2em;
   width: 2em;
   margin: 5px;
+}
+
+@media all and(min-width:768px) {
+  .about_me {
+    font-size: 20px;
+    transform: translateY(-80px);
+  }
+  .border {
+    transform: translateY(-80px);
+  }
+  .photo {
+    height: 400px;
+    transform: translateY(-60px);
+  }
+  .first_text {
+    font-size: 18px;
+    margin: 20px;
+    line-height: 1.7;
+    transform: translateY(-60px);
+  }
+  .tech {
+    font-size: 20px;
+  }
+  .skils {
+    height: 220px;
+  }
+  .vscode {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .html {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .css {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .sass {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .js {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .react {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .database {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .gith {
+    height: 3em;
+    line-height: 3em;
+    width: 3em;
+    margin: 10px;
+  }
+  .projects {
+    font-size: 20px;
+  }
+  .second_text {
+    font-size: 18px;
+    margin: 20px;
+    line-height: 1.7;
+  }
+  .paragraph01 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .team1 {
+    width: 45%;
+  }
+  .web_1 {
+    font-size: 18px;
+  }
+  .repo_1 {
+    font-size: 18px;
+  }
+  .paragraph02 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .project_dt {
+    width: 45%;
+  }
+  .web_2 {
+    font-size: 18px;
+  }
+  .repo_1_1 {
+    font-size: 18px;
+  }
+  .paragraph03 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .project_gr {
+    width: 45%;
+  }
+  .web_3 {
+    font-size: 18px;
+  }
+  .repo_1_2 {
+    font-size: 18px;
+  }
+  .paragraph04 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .project_dt1 {
+    width: 45%;
+  }
+  .web_4 {
+    font-size: 18px;
+  }
+  .repo_1_3 {
+    font-size: 18px;
+  }
+  .paragraph05 {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .project_dt2 {
+    width: 45%;
+  }
+  .web_5 {
+    font-size: 18px;
+  }
+  .repo_1_4 {
+    font-size: 18px;
+  }
 }

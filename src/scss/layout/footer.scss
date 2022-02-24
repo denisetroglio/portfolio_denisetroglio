@@ -3,14 +3,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 250px;
+  height: 220px;
 }
 .icon_footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  transform: translateY(-40px);
+  transform: translateY(-15px);
 }
 .arrow{
   background-color: #801f4f;
@@ -76,7 +76,6 @@
   text-align: center;
   padding: 10px;
   margin-top: 25px;
-  transform: translateY(20px);
 }
 .fa {
   width: 45px;

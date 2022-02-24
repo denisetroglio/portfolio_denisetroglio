@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   background-color: #160d27;
-  height: 100vh;
 }
 .webadalab {
   text-decoration: none;
@@ -33,7 +32,6 @@
   align-items: center;
   height: 1px;
   width: 6em;
-  transform: translateY(-5px);
 }
 .border_tec {
   background: rgba(255, 255, 255, 0.55);
@@ -106,9 +104,19 @@
   justify-content: center;
   align-items: center;
   background-color: #160d27;
-  padding: 3px;
 }
-
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .projects {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
@@ -121,32 +129,52 @@
 .second_text {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  padding: 15px;
+  padding: 16px 44px 15px 45px;
   text-align: justify;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
-}
-.projects_adalab {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #160d27;
-  padding: 3px;
 }
 .paragraph01 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
 }
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.webpage{
+  color: rgba(255, 255, 255, 0.55);
+  width: fit-content;
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
+  cursor: pointer;
+}
+// .fab {
+//   color: rgba(255, 255, 255, 0.55);
+//   width: fit-content;
+//   margin-bottom: 45px;
+//   margin-top: 5px;
+//   padding-left: 7px;
+//   padding-right: 7px;
+//   font-size: 18px;
+// }
 .team1 {
-  width: 60%;
-  height: auto;
+  width: 180px;
+  height: 230px;
   object-fit: cover;
-  border: solid 4px rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
 }
 .web {
   flex-direction: row;
@@ -188,15 +216,16 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt {
-  width: 60%;
-  height: auto;
+  width: 180px;
+  height: 230px;
   object-fit: cover;
-  border: solid 4px rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
 }
 .web1 {
   flex-direction: row;
@@ -237,15 +266,16 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
 }
 .project_gr {
-  width: 60%;
-  height: auto;
+  width: 180px;
+  height: 230px;
   object-fit: cover;
-  border: solid 4px rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
 }
 .web2 {
   flex-direction: row;
@@ -286,15 +316,16 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt1 {
-  width: 60%;
-  height: auto;
+  width: 180px;
+  height: 230px;
   object-fit: cover;
-  border: solid 4px rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
 }
 .web3 {
   flex-direction: row;
@@ -335,15 +366,16 @@
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt2 {
-  width: 60%;
-  height: auto;
+  width: 180px;
+  height: 230px;
   object-fit: cover;
-  border: solid 4px rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
 }
 .web4 {
   flex-direction: row;
@@ -433,20 +465,14 @@
 @media all and(min-width:768px) {
   .about_me {
     font-size: 20px;
-    transform: translateY(-80px);
-  }
-  .border {
-    transform: translateY(-80px);
   }
   .photo {
     height: 400px;
-    transform: translateY(-60px);
   }
   .first_text {
     font-size: 18px;
     margin: 20px;
     line-height: 1.7;
-    transform: translateY(-60px);
   }
   .tech {
     font-size: 20px;
@@ -513,66 +539,63 @@
   .paragraph01 {
     font-size: 18px;
     margin: 20px;
+    text-align: left;
   }
   .team1 {
-    width: 45%;
+    width: 300px;
+    height: 300px;
   }
-  .web_1 {
-    font-size: 18px;
-  }
-  .repo_1 {
-    font-size: 18px;
-  }
+
   .paragraph02 {
     font-size: 18px;
     margin: 20px;
+    text-align: right;
   }
   .project_dt {
-    width: 45%;
-  }
-  .web_2 {
-    font-size: 18px;
-  }
-  .repo_1_1 {
-    font-size: 18px;
+    width: 300px;
+    height: 300px;
   }
   .paragraph03 {
     font-size: 18px;
     margin: 20px;
+    text-align: left;
   }
   .project_gr {
-    width: 45%;
+    width: 300px;
+    height: 300px;
   }
-  .web_3 {
-    font-size: 18px;
-  }
-  .repo_1_2 {
-    font-size: 18px;
-  }
-  .paragraph04 {
+  .paragraph04{
     font-size: 18px;
     margin: 20px;
+    text-align: right;
   }
-  .project_dt1 {
-    width: 45%;
+  .project_dt1{
+    width: 300px;
+    height: 300px;
   }
-  .web_4 {
-    font-size: 18px;
+  .project_dt2{
+    width: 300px;
+    height: 300px;
   }
-  .repo_1_3 {
-    font-size: 18px;
-  }
-  .paragraph05 {
+  .paragraph05{
     font-size: 18px;
     margin: 20px;
+    text-align: left;
   }
-  .project_dt2 {
-    width: 45%;
+  .right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 16px 44px 15px 45px;
   }
-  .web_5 {
-    font-size: 18px;
+
+  .left{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    text-align: right;
+    padding: 16px 44px 15px 31px;
   }
-  .repo_1_4 {
-    font-size: 18px;
-  }
+
 }

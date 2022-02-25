@@ -105,13 +105,13 @@
   align-items: center;
   background-color: #160d27;
 }
-.right{
+.right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.left{
+.left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,7 +129,7 @@
 .second_text {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  padding: 16px 44px 15px 45px;
+  padding: 15px;
   text-align: justify;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
@@ -140,35 +140,19 @@
   padding: 15px;
   text-align: center;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(236, 231, 231, 0.55);
 }
-.socialMedia {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  color: rgba(255, 255, 255, 0.55);
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-}
-.webpage{
+
+.webpage {
   color: rgba(255, 255, 255, 0.55);
   width: fit-content;
   margin-bottom: 5px;
   padding-left: 7px;
   padding-right: 7px;
-  font-size: 18px;
+  transform: translateY(10px);
   cursor: pointer;
 }
-// .fab {
-//   color: rgba(255, 255, 255, 0.55);
-//   width: fit-content;
-//   margin-bottom: 45px;
-//   margin-top: 5px;
-//   padding-left: 7px;
-//   padding-right: 7px;
-//   font-size: 18px;
-// }
+
 .team1 {
   width: 180px;
   height: 230px;
@@ -470,7 +454,7 @@
     height: 400px;
   }
   .first_text {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
     line-height: 1.7;
   }
@@ -532,12 +516,12 @@
     font-size: 20px;
   }
   .second_text {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
     line-height: 1.7;
   }
   .paragraph01 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
     text-align: left;
   }
@@ -547,7 +531,7 @@
   }
 
   .paragraph02 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
     text-align: right;
   }
@@ -556,7 +540,7 @@
     height: 300px;
   }
   .paragraph03 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px;
     text-align: left;
   }
@@ -564,38 +548,37 @@
     width: 300px;
     height: 300px;
   }
-  .paragraph04{
-    font-size: 18px;
+  .paragraph04 {
+    font-size: 20px;
     margin: 20px;
     text-align: right;
   }
-  .project_dt1{
+  .project_dt1 {
     width: 300px;
     height: 300px;
   }
-  .project_dt2{
+  .project_dt2 {
     width: 300px;
     height: 300px;
   }
-  .paragraph05{
-    font-size: 18px;
+  .paragraph05 {
+    font-size: 20px;
     margin: 20px;
     text-align: left;
   }
-  .right{
+  .right {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
-    padding: 16px 44px 15px 45px;
+    padding: 16px 44px 35px 45px;
   }
 
-  .left{
+  .left {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
     text-align: right;
-    padding: 16px 44px 15px 31px;
+    padding: 16px 44px 35px 31px;
   }
-
 }

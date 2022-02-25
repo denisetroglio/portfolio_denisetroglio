@@ -17,6 +17,13 @@
   text-decoration: underline;
   color: #109c8c;
 }
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #160d27;
+}
 .about_me {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
@@ -80,6 +87,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .tech {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
@@ -580,5 +588,11 @@
     align-items: flex-end;
     text-align: right;
     padding: 16px 44px 35px 31px;
+  }
+}
+
+@media all and(min-width:1200px) {
+  .first_section {
+    flex-direction: row;
   }
 }

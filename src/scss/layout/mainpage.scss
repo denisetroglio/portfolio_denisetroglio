@@ -29,6 +29,7 @@
   font-size: 18px;
   font-weight: 300;
   padding: 10px;
+  padding-top: 15px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.55);
 }
@@ -68,18 +69,20 @@
   text-align: justify;
   color: rgba(255, 255, 255, 0.55);
   font-weight: 300;
+  line-height: 1.7;
 }
 
 .photo {
   position: relative;
   width: 90%;
-  height: 250px;
+  height: 350px;
   margin: 15px;
+  border-radius: 10px;
   object-fit: cover;
   align-items: center;
 }
 .skils {
-  background-color: #801f4f;
+  background-color: #561435;
   height: 180px;
   width: 100%;
   display: flex;
@@ -150,7 +153,6 @@
   font-weight: 300;
   color: rgba(236, 231, 231, 0.55);
 }
-
 .webpage {
   color: rgba(255, 255, 255, 0.55);
   width: fit-content;
@@ -160,49 +162,12 @@
   transform: translateY(10px);
   cursor: pointer;
 }
-
 .team1 {
   width: 180px;
   height: 230px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
-}
-.web {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-.web_1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.web_1:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
-
-.repo_1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.repo_1:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
 }
 .paragraph02 {
   font-family: "Source Sans Pro", sans-serif;
@@ -219,41 +184,6 @@
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
 }
-.web1 {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-.web_2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.web_2:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
-.repo_1_1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.repo_1_1:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
 .paragraph03 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -268,41 +198,6 @@
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
-}
-.web2 {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-.web_3 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.web_3:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
-.repo_1_2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.repo_1_2:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
 }
 .paragraph04 {
   font-family: "Source Sans Pro", sans-serif;
@@ -319,41 +214,6 @@
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
 }
-.web3 {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-.web_4 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.web_4:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
-.repo_1_3 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.repo_1_3:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
 .paragraph05 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -368,42 +228,6 @@
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
-}
-.web4 {
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
-  margin: 15px;
-}
-.web_5 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.web_5:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
-}
-.repo_1_4 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: justify;
-  color: rgba(255, 255, 255, 0.55);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 300ms linear;
-}
-.repo_1_4:hover {
-  position: relative;
-  z-index: 1;
-  color: #801f4f;
 }
 .html {
   height: 2em;
@@ -459,12 +283,11 @@
     font-size: 20px;
   }
   .photo {
-    height: 400px;
+    height: 680px;
   }
   .first_text {
     font-size: 20px;
     margin: 20px;
-    line-height: 1.7;
   }
   .tech {
     font-size: 20px;
@@ -594,5 +417,20 @@
 @media all and(min-width:1200px) {
   .first_section {
     flex-direction: row;
+    height: 100vh;
+  }
+  .photo {
+    height: 420px;
+    margin-left: 25px;
+  }
+  .first_text {
+    margin: 50px;
+    word-spacing: 2px;
+  }
+  .paragraph01 {
+    margin-right: 120px;
+  }
+  .paragraph02 {
+    margin-left: 120px;
   }
 }

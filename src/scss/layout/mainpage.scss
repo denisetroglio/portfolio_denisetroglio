@@ -153,21 +153,13 @@
   font-weight: 300;
   color: rgba(236, 231, 231, 0.55);
 }
-.webpage {
-  color: rgba(255, 255, 255, 0.55);
-  width: fit-content;
-  margin-bottom: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
-  transform: translateY(10px);
-  cursor: pointer;
-}
 .team1 {
-  width: 180px;
-  height: 230px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .paragraph02 {
   font-family: "Source Sans Pro", sans-serif;
@@ -178,11 +170,12 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt {
-  width: 180px;
-  height: 230px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .paragraph03 {
   font-family: "Source Sans Pro", sans-serif;
@@ -193,11 +186,12 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_gr {
-  width: 180px;
-  height: 230px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .paragraph04 {
   font-family: "Source Sans Pro", sans-serif;
@@ -208,11 +202,12 @@
   color: rgba(255, 255, 255, 0.55);
 }
 .project_dt1 {
-  width: 180px;
-  height: 230px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .paragraph05 {
   font-family: "Source Sans Pro", sans-serif;
@@ -221,13 +216,15 @@
   text-align: center;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.55);
+  padding-bottom: 60px;
 }
 .project_dt2 {
-  width: 180px;
-  height: 230px;
+  width: 200px;
+  height: 280px;
   object-fit: cover;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .html {
   height: 2em;
@@ -358,7 +355,7 @@
   }
   .team1 {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
 
   .paragraph02 {
@@ -368,7 +365,7 @@
   }
   .project_dt {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
   .paragraph03 {
     font-size: 20px;
@@ -377,7 +374,7 @@
   }
   .project_gr {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
   .paragraph04 {
     font-size: 20px;
@@ -386,11 +383,11 @@
   }
   .project_dt1 {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
   .project_dt2 {
     width: 300px;
-    height: 300px;
+    height: 400px;
   }
   .paragraph05 {
     font-size: 20px;
@@ -426,5 +423,25 @@
   .first_text {
     margin: 50px;
     word-spacing: 2px;
+  }
+  .paragraph01 {
+    margin-right: 400px;
+    text-align: justify;
+  }
+  .paragraph02 {
+    margin-left: 400px;
+    text-align: justify;
+  }
+  .paragraph03 {
+    margin-right: 400px;
+    text-align: justify;
+  }
+  .paragraph04 {
+    margin-left: 400px;
+    text-align: justify;
+  }
+  .paragraph05 {
+    margin-right: 400px;
+    text-align: justify;
   }
 }

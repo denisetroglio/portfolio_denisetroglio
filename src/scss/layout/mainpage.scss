@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #160d27;
 }
-.webmtp{
+.webmtp {
   text-decoration: none;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.55);
@@ -13,9 +13,9 @@
   transition: linear 1s color;
   font-weight: 400;
 }
-.webmtp:hover{
+.webmtp:hover {
   text-decoration: underline;
-  color: #004A6C;
+  color: #004a6c;
 }
 .webadalab {
   text-decoration: none;
@@ -54,14 +54,14 @@
   width: 6em;
 }
 .border_tec {
-  background: rgba(255, 255, 255, 0.55);
+  background: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 1px;
   width: 6em;
-  transform: translateY(-50px);
+  transform: translateY(-70px);
 }
 .border_p {
   background: rgba(255, 255, 255, 0.55);
@@ -94,8 +94,12 @@
   align-items: center;
 }
 .skils {
-  background-color: #561435;
-  height: 180px;
+  background-image: url("../images/montain.jpg");
+  opacity: 0.85;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -106,12 +110,12 @@
 .tech {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.55);
+  color: black;
   margin: 15px;
-  transform: translateY(-40px);
+  transform: translateY(-60px);
 }
 .list_icons {
   list-style-type: none;

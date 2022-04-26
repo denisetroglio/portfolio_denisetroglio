@@ -1,5 +1,8 @@
 .footer {
-  background: linear-gradient(#2c1a4d, #561435);
+  background: linear-gradient(#160d27,#021b5c);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -13,7 +16,7 @@
   transform: translateY(-15px);
 }
 .arrow {
-  background-color: #561435;
+  background-color: #000038;
   height: 40px;
   width: 40px;
   border-radius: 20px;
@@ -66,7 +69,7 @@
 .fab:hover {
   position: relative;
   z-index: 1;
-  color: #2c1a4d;
+  color: #004C9C;
 }
 .location {
   font-family: "Source Sans Pro", sans-serif;

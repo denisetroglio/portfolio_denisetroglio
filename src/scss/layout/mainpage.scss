@@ -61,7 +61,7 @@
   align-items: center;
   height: 1px;
   width: 6em;
-  transform: translateY(-90px);
+  transform: translateY(-60px);
 }
 .border_p {
   background: rgba(255, 255, 255, 0.55);
@@ -93,12 +93,12 @@
   object-fit: cover;
   align-items: center;
 }
-.skils{
-  background-image: url("../images/snow.jpg");
+.skils {
+  background-image: url("../images/beach.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 250px;
+  height: 190px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -109,12 +109,12 @@
 .tech {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: black;
   margin: 15px;
-  transform: translateY(-80px);
+  transform: translateY(-50px);
 }
 .list_icons {
   list-style-type: none;
@@ -122,7 +122,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  transform: translateY(-20px);
 }
 .second_section {
   display: flex;
@@ -240,6 +239,23 @@
   border-radius: 175px;
   border: solid 3px rgba(255, 255, 255, 0.55);
   cursor: pointer;
+}
+.harry_potter{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 175px;
+  border: solid 3px rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+}
+.potter{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  padding: 25px;
+  text-align: justify;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.55);
+  padding-bottom: 60px;
 }
 .html {
   height: 2em;
@@ -365,40 +381,44 @@
   }
   .paragraph01 {
     font-size: 20px;
-    margin: 20px;
-    text-align: left;
+    margin: 10px;
+    text-align: justify;
   }
   .team1 {
-    width: 300px;
+    width: 400px;
     height: 400px;
+    border-radius: 200px;
   }
 
   .paragraph02 {
     font-size: 20px;
-    margin: 20px;
-    text-align: right;
+    margin: 10px;
+    text-align: justify;
   }
   .project_dt {
-    width: 300px;
+    width: 400px;
     height: 400px;
+    border-radius: 200px;
   }
   .paragraph03 {
     font-size: 20px;
-    margin: 20px;
-    text-align: left;
+    margin: 10px;
+    text-align: justify;
   }
   .project_gr {
-    width: 300px;
+    width: 400px;
     height: 400px;
+    border-radius: 200px;
   }
   .paragraph04 {
     font-size: 20px;
-    margin: 20px;
-    text-align: right;
+    margin: 10px;
+    text-align: justify;
   }
   .project_dt1 {
-    width: 300px;
+    width: 400px;
     height: 400px;
+    border-radius: 200px;
   }
   .project_dt2 {
     width: 300px;
@@ -406,8 +426,23 @@
   }
   .paragraph05 {
     font-size: 20px;
-    margin: 20px;
-    text-align: left;
+    margin: 10px;
+    text-align: justify;
+  }
+  .project_letter{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  }
+  .harry_potter{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+  }
+  .potter{
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
   }
   .right {
     display: flex;
@@ -439,24 +474,51 @@
     margin: 50px;
     word-spacing: 2px;
   }
+  .about_me{
+    font-size: 24px;
+  }
+  .border{
+    width: 10em;
+  }
+  .skils {
+    height: 450px;
+  }
+  .tech{
+    font-size: 24px;
+    transform: translateY(-140px);
+  }
+  .border_tec{
+    transform: translateY(-150px);
+    width: 10em;
+  }
+  .projects{
+    font-size: 24px;
+  }
+  .border_p{
+    width: 10em;
+  }
   .paragraph01 {
-    margin-right: 400px;
+    margin-right: 700px;
     text-align: justify;
   }
   .paragraph02 {
-    margin-left: 400px;
+    margin-left: 700px;
     text-align: justify;
   }
   .paragraph03 {
-    margin-right: 400px;
+    margin-right: 700px;
     text-align: justify;
   }
   .paragraph04 {
-    margin-left: 400px;
+    margin-left: 700px;
     text-align: justify;
   }
   .paragraph05 {
-    margin-right: 400px;
+    margin-right: 700px;
+    text-align: justify;
+  }
+  .potter{
+    margin-left: 700px;
     text-align: justify;
   }
 }
